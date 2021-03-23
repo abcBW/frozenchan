@@ -52,11 +52,11 @@ postHomeR = do
 
 sampleForm :: Form FileForm
 sampleForm = renderBootstrap3 BootstrapBasicForm $ FileForm
-    <$> fileAFormReq "Choose a file"
+    <$> fileAFormReq "Escolhe o arquivo filho da puta"
     <*> areq textField textSettings Nothing
     -- Add attributes like the placeholder and CSS classes.
     where textSettings = FieldSettings
-            { fsLabel = "What's on the file?"
+            { fsLabel = "What's o the file?"
             , fsTooltip = Nothing
             , fsId = Nothing
             , fsName = Nothing
