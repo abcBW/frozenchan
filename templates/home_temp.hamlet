@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <title>
+   Page Title
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <link href="home.css" rel="stylesheet">
+ <body>
+  <div #doc>
+   <header>
+    <h1>
+     FrozenChan!
+   <main>
+    <div .box #anounce>
+     <div .box-inner>
+      <div .box-head>
+       <h2>
+        O que é o FrozenChan?
+      <div .box-content>
+       <p>
+        Frozen Chan é uma image board open source feita em haskell nao tem muita coisa pra falar mas precios encher essa barra aqui pra ficar daora entao nao precisa continuar lendo voce ja pode parar
+       <br>
+       <p>
+        Beleza ja pode parar de ler
+    <img .test src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e515f101-32c1-4da3-bf42-9f7d8ed9e2fb/da47099-78129e01-fa6a-4cac-a5dc-545f7594eee6.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZTUxNWYxMDEtMzJjMS00ZGEzLWJmNDItOWY3ZDhlZDllMmZiXC9kYTQ3MDk5LTc4MTI5ZTAxLWZhNmEtNGNhYy1hNWRjLTU0NWY3NTk0ZWVlNi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.2yB-raS1ZFi4Mxs9kS7MntArR6ZbW0836-pooK9VL4E">
+    <div .box style="margin-top: -3px">
+     <div .box-inner>
+      <div .box-head>
+       <h2>
+        Boards
+      <div .box-content>
+       <table>
+        <tr>
+         <th .board>
+          Boards
+         <th .dir>
+          Diretório
+         <th>
+          Threads ativas
+         <th>
+          Usuarios hoje
+        <tr>
+         <td>
+          <a href="#">
+           Random
+         <td>
+          /b/
+         <td>
+          94
+         <td>
+          5326
+        <tr>
+         <td>
+          <a href="#">
+           Animes
+         <td>
+          /a/
+         <td>
+          32
+         <td>
+          125
+        <tr>
+         <td>
+          <a href="#">
+           Tecnologia
+         <td>
+          /g/
+         <td>
+          74
+         <td>
+          2425
+        <tr>
+         <td>
+          <a href="#">
+           Esportes
+         <td>
+          /s/
+         <td>
+          2
+         <td>
+          42
+        <tr>
+         <td>
+          <a href="#">
+           Porn
+         <td>
+          /pr0n/
+         <td>
+          67
+         <td>
+          647
+        <tr>
+         <td>
+          <a href="#">
+           shitpost
+         <td>
+          /shit/
+         <td>
+          12
+         <td>
+          65
+        <tr>
+         <td>
+          <a href="#">
+           Paranormal
+         <td>
+          /x/
+         <td>
+          12
+         <td>
+          65
+        <tr>
+         <td>
+          <a href="#">
+           Pintos femininos
+         <td>
+          /neo/
+         <td>
+          12
+         <td>
+          65
+        <tr>
+         <td>
+          <a href="#">
+           Requests
+         <td>
+          /r/
+         <td>
+          12
+         <td>
+          65
+    <div .box>
+     <div .box-inner>
+      <div .box-head>
+       <h2>
+        Stats
+      <div .box-content>
+       <div .stats>
+        <p>
+         <strong>
+          Total de threads:
+         5362
+        <p>
+         <strong>
+          Online agora:
+         125
+        <p>
+         <strong>
+          Conteúdo ativo:
+         124 GB
+   <footer>
+    <p>
+     Criado por abcBW &amp; Smezzy

@@ -96,7 +96,6 @@ instance Yesod App where
     -- For details, see the CSRF documentation in the Yesod.Core.Handler module of the yesod-core package.
     yesodMiddleware :: ToTypedContent res => Handler res -> Handler res
     yesodMiddleware = defaultYesodMiddleware
-
         -- Get the breadcrumbs, as defined in the YesodBreadcrumbs instance.
 
         -- Define the menu items of the header.
