@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #212121;
+    color: #d0f4ff;
+    font-size: 13px;
+}
+
+h2 {
+    font-size: 130%;
+    
+}
+
+h3 {
+    font-size: 110%;
+}
+
+#doc {
+    margin: auto;
+    width: 795px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Css das  box geral*/
+.box {
+    text-align: left;
+    margin: 1em 0;
+    border: 1px solid #000000;
+}
+
+#anounce .box-head {
+    background-color: #176edf;
+}
+.box-head {
+    padding-left: .5em;
+    line-height: 2em;
+    background-color: #0b83bb;
+    color: white;
+}
+.box-content {
+    padding: .5em;
+    background-color: #484848;
+    line-height: 130%;
+}
+.box-inner {
+    margin: 0;
+    padding: 0;
+}
+
+/*  CSS das boards */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    line-height: 1.7em;
+}
+th.board, th.dir{
+    width: 26%;
+}
+th {
+    border-bottom: 1px solid #d0f4ff;
+}
+td a {
+    text-decoration: none;
+    color: inherit;
+}
+tr:nth-child(even){
+    background-color: #404040;
+}
+tr:hover {
+    background-color: #212121;
+    cursor: pointer;
+}
+tr:first-child {
+    background-color: transparent;
+    cursor: unset;
+}
+
+/* Css da box threads */
+
+#threads {
+    text-align: center;
+    display: inline-block;
+
+}
+
+#threads img {
+    max-width: 140px;
+    max-height: 198px;
+    border: 1px solid #3d95cc;
+}
+
+.thread {
+    vertical-align: top;
+    display: inline-block;
+    width: 190px;
+    padding: 4px 0;
+}
+
+.thread .teaser {
+    margin: 0 3px;
+}
+.thread span {
+    display: block;
+    font-size: 105%;
+}
+
+strong { 
+    color: #a1e8ff;
+}
+
+/*footer */
+.stats {
+    line-height: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+.test {
+    max-height: 350px;
+    width: auto;
+}
