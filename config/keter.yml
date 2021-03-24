@@ -25,7 +25,7 @@ stanzas:
       # You can specify one or more hostnames for your application to respond
       # to. The primary hostname will be used for generating your application
       # root.
-      - www.frozenchan.com
+      - https://frozenchan.herokuapp.com/
 
     # Enable to force Keter to redirect to https
     # Can be added to any stanza
@@ -34,7 +34,7 @@ stanzas:
   # Static files.
   - type: static-files
     hosts:
-      - static.frozenchan.com
+      - https://frozenchan.herokuapp.com/
     root: ../static
 
     # Uncomment to turn on directory listings.
@@ -44,11 +44,11 @@ stanzas:
   - type: redirect
 
     hosts:
-      - frozenchan.com
+      - https://frozenchan.herokuapp.com/
     actions:
-      - host: www.frozenchan.com
+      - host: https://frozenchan.herokuapp.com/
         # secure: false
-        # port: 80
+        port: 80
 
     # Uncomment to switch to a non-permanent redirect.
     # status: 303
