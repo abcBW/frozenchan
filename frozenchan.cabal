@@ -34,6 +34,7 @@ library
       Handler.Common
       Handler.Home
       Handler.Profile
+						Handler.Feed
       Import
       Import.NoFoundation
       Model

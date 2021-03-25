@@ -9,6 +9,8 @@
 
 / HomeR GET POST
 
+/feed FeedR GET
+
 /comments CommentR POST
 
 /profile ProfileR GET
