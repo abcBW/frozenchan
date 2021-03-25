@@ -35,6 +35,11 @@ library
       Handler.Home
       Handler.Profile
 						Handler.Feed
+						Handler.Random
+      Handler.Anime
+						Handler.Tec
+						Handler.Pintos
+						Handler.Pron
       Import
       Import.NoFoundation
       Model
