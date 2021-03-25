@@ -42,6 +42,16 @@
           Usuarios hoje
         <tr>
          <td>
+          <a href="./feed.hamlet">
+           Feed Global
+         <td>
+          /feed/
+         <td>
+          32
+         <td>
+          125
+        <tr>
+         <td>
           <a href="#">
            Random
          <td>
@@ -73,16 +83,6 @@
         <tr>
          <td>
           <a href="#">
-           Esportes
-         <td>
-          /s/
-         <td>
-          2
-         <td>
-          42
-        <tr>
-         <td>
-          <a href="#">
            Porn
          <td>
           /pr0n/
@@ -103,29 +103,9 @@
         <tr>
          <td>
           <a href="#">
-           Paranormal
-         <td>
-          /x/
-         <td>
-          12
-         <td>
-          65
-        <tr>
-         <td>
-          <a href="#">
            Pintos femininos
          <td>
           /neo/
-         <td>
-          12
-         <td>
-          65
-        <tr>
-         <td>
-          <a href="#">
-           Requests
-         <td>
-          /r/
          <td>
           12
          <td>
