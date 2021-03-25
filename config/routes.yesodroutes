@@ -9,7 +9,7 @@
 
 / HomeR GET POST
 
-/feed/ FeedR GET
+/feed FeedR GET
 /b/ RandomR GET
 /a/ AnimeR GET
 /g/ TecR GET

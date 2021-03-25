@@ -33,7 +33,7 @@ getHomeR = do
         let (commentFormId, commentTextareaId, commentListId) = commentIds
         aDomId <- newIdent
         setTitle "Frozenchan!"
-        $(widgetFile "feed")
+        $(widgetFile "home_temp")
 
 postHomeR :: Handler Html
 postHomeR = do

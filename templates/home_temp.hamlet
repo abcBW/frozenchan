@@ -42,7 +42,7 @@
           Usuarios hoje
         <tr>
          <td>
-          <a href="./feed.hamlet">
+          <a href=@{FeedR}>
            Feed Global
          <td>
           /feed/

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 18px;
+}
+body {
+    background-color: #1e2021;
+    color: #d0f4ff;
+}
+nav a {
+    outline: none;
+    border: none;
+    color: #d0f4ff;
+    font-size: 14px;
+    background-color: transparent;
+    padding: 0 1em;
+    text-decoration: none;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2f3336;
+}
+nav div {
+    padding: 6px 20px;
+}
+.board-header{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+.board-header img, h1{
+    padding: 10px;
+}
+
+#new-thread {
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #2f3336;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 3px;
+
+}
+
+.img-board {
+    width: 99%;
+    margin: auto;
+}
+
+#search {
+    background-color: #2f3336;
+    margin: 0 5px;
+    border: none;
+    color: #8fa6ad;
+    font-size: 16px;
+}
+#search:focus {
+    outline: none;
+    border: none;
+}
+.util-items {
+    padding: 10px;
+    background-color: #2f3336;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+#thread {
+    background-color: #2f3336;
+    font-size: 14px;
+    margin: 25px 0;
+}
+.post-container {
+    padding: 7px;
+}
+
+.post-summary img{
+    max-width: 220px;
+    max-height: 220px;
+    cursor: pointer;
+}
+.post-summary {
+    display: flex;
+    padding: 4px;
+}
+#post-content {
+    position: relative;
+    min-width: 450px;
+    max-width: 450px;
+    padding-left: 35px;
+}
+.post-data strong{
+    color: #53bee2;
+}
+.post-data span{
+    color: #72b3c9;
+}
+.reply-data strong {
+    color: #e28053;
+}
+.reply-data span {
+    color: #72b3c9;
+    font-size: 12px;
+    cursor: pointer;
+}
+.reply-content span{
+    color: #e25d53;
+    cursor: pointer;
+}
+.summary span {
+    color: #8fa6ad;
+}
+.summary strong {
+    color: #a8cad4;
+    cursor: pointer;
+    font-weight: 400;
+}
+.summary {
+    position: absolute;
+    bottom: 0;
+}
+
+.reply-container {
+    display: table;
+    padding: 5px;
+    margin: 8px 0;
+    margin-left: 15px;
+    /* border: 2px solid #484848; */
+    background-color: #282c30;
+    border-radius: 3px;
+}
+
+.post-tags {
+    position: absolute;
+    right: 0px;
+}
+.reply-content{
+    display: flex;
+}
+.reply-content p{
+    padding: 20px;
+}
+.reply-content img {
+    max-width: 180px;
+    padding: 5px;
+    padding-right: 20px;
+}

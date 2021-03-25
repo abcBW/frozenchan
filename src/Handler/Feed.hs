@@ -11,4 +11,4 @@ getFeedR :: Handler Html
 getFeedR = do
     defaultLayout $ do
         setTitle "Global"
-        $(widgetFile "home_temp")
+        $(widgetFile "feed")
